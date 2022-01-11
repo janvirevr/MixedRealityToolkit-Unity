@@ -66,6 +66,10 @@ The tool can be found under <i>Mixed Reality > Toolkit > Utilities > Oculus > In
         private OVRHand leftHand;
         private OVRSkeleton leftSkeleton;
 
+        private bool handsEnabled;
+
+        public bool HandEnabled {get; set;}
+
         /// <summary>
         /// The profile that contains settings for the Oculus XRSDK Device Manager input data provider.  This profile is nested under 
         /// Input > Input Data Providers > Oculus XRSDK Device Manager in the MixedRealityToolkit object in the hierarchy.
